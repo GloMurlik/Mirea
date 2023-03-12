@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="400dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Glo_Murlik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="45dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="75dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Name:"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="109dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Organization:"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="302dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Mirea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="104dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="+7 (888)555-35-35"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+        android:layout_width="99dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="19dp"
+        android:background="#A53838"
+        android:backgroundTint="#958A8A"
+        android:text="Save"
+        app:iconTint="#938888"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="159dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/sym_action_call" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="416dp"
+        android:layout_height="243dp"
+        app:srcCompat="@drawable/maxresdefault"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
